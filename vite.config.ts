@@ -19,7 +19,6 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            '@vercel/speed-insights': '@vercel/speed-insights/react',
             'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
         },
     },
